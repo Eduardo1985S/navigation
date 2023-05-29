@@ -6,14 +6,14 @@ import { useNavigation } from "@react-navigation/native";
 export default function Home() {
     const navigation = useNavigation();
     return (
-        <View>
+        <View style={styles.container}>
             <Text>Tela Home!</Text>
             <Button title="Ir para Sobre" onPress={() => navigation.navigate('Sobre')} />
         </View>
     )
 }
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
