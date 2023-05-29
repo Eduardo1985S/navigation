@@ -1,12 +1,12 @@
 import React from "react";
 
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNagigator } from "@react-navigation/stack";
+import { createNativeStackNavigator } from "@react-navigation/stack";
 
 import Home from "./src/pages/Home";
 import Sobre from "./src/pages/Sobre";
 
-const Stack = createNativeStackNagigator();
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
